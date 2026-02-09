@@ -1,0 +1,375 @@
+{
+    "$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+    "version": 3,
+    "customTemplates": [],
+    "settings": {
+        "appearanceTools": true,
+        "color": {
+            "background": true,
+            "custom": false,
+            "customDuotone": false,
+            "customGradient": false,
+            "defaultGradients": false,
+            "defaultPalette": true,
+            "duotone": [],
+            "gradients": [],
+            "palette": [
+                {
+                    "color": "#D83535",
+                    "name": "Primary Red",
+                    "slug": "primary-red"
+                },
+                {
+                    "color": "#B10D0D",
+                    "name": "Primary Dark",
+                    "slug": "primary-dark"
+                },
+                {
+                    "color": "#5E96FF",
+                    "name": "Blue Light",
+                    "slug": "blue-light"
+                },
+                {
+                    "color": "#3A74E1",
+                    "name": "Blue Main",
+                    "slug": "primary"
+                },
+                {
+                    "color": "#1A53BE",
+                    "name": "Blue Dark",
+                    "slug": "blue-dark"
+                },
+                {
+                    "color": "#C9AF09",
+                    "name": "Accent Yellow Dark",
+                    "slug": "accent-yellow-dark"
+                },
+                {
+                    "color": "#0C0C0F",
+                    "name": "Neutral 900",
+                    "slug": "neutral-900"
+                },
+                {
+                    "color": "#21212A",
+                    "name": "Neutral 800",
+                    "slug": "neutral-800"
+                },
+                {
+                    "color": "#333343",
+                    "name": "Neutral 700",
+                    "slug": "neutral-700"
+                },
+                {
+                    "color": "#84837B",
+                    "name": "Neutral 500",
+                    "slug": "neutral-500"
+                },
+                {
+                    "color": "#A8A7A0",
+                    "name": "Neutral 300",
+                    "slug": "neutral-300"
+                },
+                {
+                    "color": "#E4CD34",
+                    "name": "Accent Yellow Main",
+                    "slug": "accent-yellow-main"
+                },
+                {
+                    "color": "#FBE65F",
+                    "name": "Accent Yellow Light",
+                    "slug": "accent-yellow-light"
+                },
+                {
+                    "color": "#F15353",
+                    "name": "Primary Red Light",
+                    "slug": "primary-red-light"
+                },
+                {
+                    "color": "#DFDED6",
+                    "name": "Neutral 100",
+                    "slug": "neutral-100"
+                }
+            ],
+            "text": true
+        },
+        "custom": {
+            "spacing": {
+                "large": "clamp(4rem, 10vw, 8rem)",
+                "medium": "clamp(2rem, 8vw, calc(4 * var(--wp--style--block-gap)))",
+                "outer": "var(--wp--custom--spacing--small, 1.25rem)",
+                "small": "max(1.25rem, 5vw)"
+            },
+            "typography": {
+                "fontSize": {
+                    "colossal": "clamp(4rem, 8vw, 6.25rem)",
+                    "gigantic": "clamp(3rem, 6vw, 4rem)"
+                },
+                "lineHeight": {
+                    "medium": 1.3999999999999999,
+                    "normal": 1.6000000000000001,
+                    "small": 1.2,
+                    "tiny": 1.1499999999999999
+                }
+            }
+        },
+        "layout": {
+            "contentSize": "1200px",
+            "wideSize": "1400px"
+        },
+        "spacing": {
+            "units": [
+                "px",
+                "em",
+                "rem",
+                "vh",
+                "vw"
+            ]
+        },
+        "typography": {
+            "customFontSize": true,
+            "defaultFontSizes": false,
+            "dropCap": false,
+            "fontFamilies": [
+                {
+                    "name": "Figtree",
+                    "slug": "figtree",
+                    "fontFamily": "Figtree, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-300-normal.woff2"
+                            ],
+                            "fontWeight": "300",
+                            "fontStyle": "normal",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-500-normal.woff2"
+                            ],
+                            "fontWeight": "500",
+                            "fontStyle": "normal",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-600-normal.woff2"
+                            ],
+                            "fontWeight": "600",
+                            "fontStyle": "normal",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-700-normal.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "normal",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-800-normal.woff2"
+                            ],
+                            "fontWeight": "800",
+                            "fontStyle": "normal",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-900-normal.woff2"
+                            ],
+                            "fontWeight": "900",
+                            "fontStyle": "normal",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-300-italic.woff2"
+                            ],
+                            "fontWeight": "300",
+                            "fontStyle": "italic",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-400-italic.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "italic",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-500-italic.woff2"
+                            ],
+                            "fontWeight": "500",
+                            "fontStyle": "italic",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-600-italic.woff2"
+                            ],
+                            "fontWeight": "600",
+                            "fontStyle": "italic",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-700-italic.woff2"
+                            ],
+                            "fontWeight": "700",
+                            "fontStyle": "italic",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-800-italic.woff2"
+                            ],
+                            "fontWeight": "800",
+                            "fontStyle": "italic",
+                            "fontFamily": "Figtree"
+                        },
+                        {
+                            "src": [
+                                "file:./assets/fonts/figtree/figtree-900-italic.woff2"
+                            ],
+                            "fontWeight": "900",
+                            "fontStyle": "italic",
+                            "fontFamily": "Figtree"
+                        }
+                    ]
+                },
+                {
+                    "name": "Mandali",
+                    "slug": "mandali",
+                    "fontFamily": "Mandali, sans-serif",
+                    "fontFace": [
+                        {
+                            "src": [
+                                "file:./assets/fonts/mandali/mandali-400-normal.woff2"
+                            ],
+                            "fontWeight": "400",
+                            "fontStyle": "normal",
+                            "fontFamily": "Mandali"
+                        }
+                    ]
+                }
+            ],
+            "fontSizes": [
+                {
+                    "name": "Small",
+                    "size": "0.875rem",
+                    "slug": "small"
+                },
+                {
+                    "name": "Medium",
+                    "size": "1rem",
+                    "slug": "medium"
+                },
+                {
+                    "name": "Large",
+                    "size": "1.5rem",
+                    "slug": "large"
+                },
+                {
+                    "name": "Extra Large",
+                    "size": "2rem",
+                    "slug": "extra-large"
+                }
+            ],
+            "fontStyle": true,
+            "fontWeight": true,
+            "letterSpacing": true,
+            "textDecoration": true,
+            "textTransform": true
+        }
+    },
+    "styles": {
+        "border": {
+            "color": "",
+            "radius": "",
+            "style": "",
+            "width": ""
+        },
+        "color": {
+            "background": "",
+            "gradient": "",
+            "text": ""
+        },
+        "elements": {
+            "button": {
+                "border": {
+                    "radius": "8px"
+                },
+                "color": {
+                    "background": "var(--wp--preset--color--primary)",
+                    "text": "#ffffff"
+                },
+                "spacing": {
+                    "padding": {
+                        "bottom": "0.6em",
+                        "left": "1.2em",
+                        "right": "1.2em",
+                        "top": "0.6em"
+                    }
+                },
+                "typography": {
+                    "fontFamily": "var(--wp--preset--font-family--figtree)",
+                    "fontSize": "var(--wp--preset--font-size--medium)",
+                    "fontWeight": "400"
+                }
+            },
+            "h1": [],
+            "h2": [],
+            "h3": [],
+            "h4": [],
+            "h5": [],
+            "h6": [],
+            "link": {
+                "border": [],
+                "color": [],
+                "spacing": [],
+                "typography": []
+            }
+        },
+        "filter": {
+            "duotone": ""
+        },
+        "spacing": {
+            "blockGap": "",
+            "margin": {
+                "bottom": "",
+                "left": "",
+                "right": "",
+                "top": ""
+            },
+            "padding": {
+                "bottom": "",
+                "left": "",
+                "right": "",
+                "top": ""
+            }
+        },
+        "typography": {
+            "fontFamily": "var(--wp--preset--font-family--figtree)",
+            "fontSize": "",
+            "fontStyle": "",
+            "fontWeight": "",
+            "letterSpacing": "",
+            "lineHeight": "",
+            "textDecoration": "",
+            "textTransform": ""
+        }
+    },
+    "templateParts": []
+}
