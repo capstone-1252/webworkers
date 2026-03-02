@@ -106,14 +106,52 @@
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
-<!-- wp:group {"metadata":{"name":"RECENT POSTS"},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group"><!-- wp:heading -->
+<!-- wp:group {"metadata":{"name":"RECENT POSTS"},"className":"element.style { display: none !important; }","layout":{"type":"constrained"}} -->
+<div class="wp-block-group element.style { display: none !important; }"><!-- wp:heading -->
 <h2 class="wp-block-heading">RECENT POSTS</h2>
 <!-- /wp:heading -->
 
-<!-- wp:query -->
-<div class="wp-block-query"></div>
-<!-- /wp:query --></div>
+<!-- wp:html -->
+<div id="facebook-feed-container" style="min-height: 300px; width: 100%;">
+  </div>
+
+<script>
+(function() {
+  let isLoaded = false;
+  const widgetId = "944bce89-e7f4-4913-95ef-3383337adf09";
+
+  window.addEventListener('scroll', function() {
+    const container = document.getElementById('facebook-feed-container');
+    if (!container) return;
+
+    const rect = container.getBoundingClientRect();
+
+    if (!isLoaded && rect.top < window.innerHeight + 200) {
+      isLoaded = true;
+
+      const script = document.createElement('script');
+      script.src = "https://static.elfsight.com/platform/platform.js";
+      script.async = true;
+      document.head.appendChild(script);
+      
+      const widgetDiv = document.createElement('div');
+      widgetDiv.className = `elfsight-app-${widgetId}`;
+      widgetDiv.setAttribute('data-elfsight-app-lazy', '');
+      container.appendChild(widgetDiv);
+      
+    }
+  });
+})();
+</script>
+<!-- /wp:html -->
+
+<!-- wp:html -->
+[feed_them_social cpt_id=137]
+<!-- /wp:html -->
+
+<!-- wp:shortcode -->
+[fb_widget fb_url='https://www.facebook.com/SaranayEdmonton' width='500' height='900' data_small_header='false' data_adapt_container_width='true' data_hide_cover='false' data_show_facepile='true' data_tabs='timeline']
+<!-- /wp:shortcode --></div>
 <!-- /wp:group -->
 
 <!-- wp:heading -->
