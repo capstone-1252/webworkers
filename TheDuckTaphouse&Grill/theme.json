@@ -432,6 +432,7 @@
 			"gradient": "",
 			"text": ""
 		},
+		"css": "html {\n    scroll-behavior: smooth;\n}",
 		"elements": {
 			"button": {
 				"border": {

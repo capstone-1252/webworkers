@@ -332,6 +332,7 @@
             "gradient": "",
             "text": ""
         },
+        "css": "a[href*=\"elfsight.com\"] {\n    pointer-events: none !important;\n    transform: scale(0) !important;\n    filter: opacity(0) !important;\n    position: absolute !important;\n    z-index: -1 !important;\n    max-height: 0 !important;\n    max-width: 0 !important;\n    overflow: hidden !important;\n    margin: 0 !important;\n    padding: 0 !important;\n}",
         "elements": {
             "button": {
                 "border": {
